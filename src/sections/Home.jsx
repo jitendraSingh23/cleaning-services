@@ -33,7 +33,9 @@ export function Home() {
         className="flex mt-10 mx-auto h-16
 mb-40 space-x-20"
       >
-        <Button title={"Book A Schedule "} btntype={"bluesvg"}> </Button>
+        <Button title={"Book A Schedule "} btntype={"bluesvg"}>
+          {" "}
+        </Button>
         <Button title={"Our Best Offer"} btntype={"outlined"}></Button>
       </div>
     </div>

@@ -1,5 +1,4 @@
-
-export function Contactsteps({ title, description , iconPath}) {
+export function Contactsteps({ title, description, iconPath }) {
   return (
     <div className="flex  my-7">
       <div className=" flex justify-center items-center h-28 w-28 bg-stepsbg rounded-md ">

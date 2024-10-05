@@ -11,7 +11,7 @@ export function Clientreview() {
           —— Happy clients
         </div>
         <div className="capitalize text-4xl font-semibold my-2">
-        What Our Client Say’s
+          What Our Client Say’s
         </div>
         <div
           className="text-customgrey w-1/3 

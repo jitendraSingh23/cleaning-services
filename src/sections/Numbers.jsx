@@ -30,10 +30,7 @@ export function Numbers() {
           title={"750+"}
           description={"Active Clients"}
         ></Numbersvalue>
-        <Numbersvalue
-          title={"55+"}
-          description={"Team Advisor"}
-        ></Numbersvalue>
+        <Numbersvalue title={"55+"} description={"Team Advisor"}></Numbersvalue>
       </div>
     </div>
   );

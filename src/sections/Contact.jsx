@@ -54,8 +54,7 @@ export function Contact() {
           hendrerit pharetra. Integer sit amet laoreet lectus
         </div>
         <div className="h-16 my-5">
-
-            <Button title={"Book Appointment"} btntype={"yellow"}></Button>
+          <Button title={"Book Appointment"} btntype={"yellow"}></Button>
           {/* <button className="w-60 h-20 bg-yellow rounded-lg font-medium text-lg hover:bg-opacity-85 hover:scale-95 my-5">
             Book Appointment
           </button> */}

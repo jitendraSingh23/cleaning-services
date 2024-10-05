@@ -6,7 +6,6 @@ import person from "../assets/img/person.png";
 import homesvg from "../assets/img/homesvg.svg";
 import icon from "../assets/img/icon.svg";
 
-
 export function Services() {
   return (
     <div className="flex justify-start ml-28 flex-col">
@@ -33,37 +32,43 @@ export function Services() {
           title={"Recurring Cleaning"}
           description={
             "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty."
-          } iconPath={homesvg}
+          }
+          iconPath={homesvg}
         ></Servicescard>
         <Servicescard
           title={"Recurring Cleaning"}
           description={
             "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty."
-          }iconPath={homesvg}
+          }
+          iconPath={homesvg}
         ></Servicescard>
         <Servicescard
           title={"Recurring Cleaning"}
           description={
             "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty."
-          }iconPath={homesvg}
+          }
+          iconPath={homesvg}
         ></Servicescard>
         <Servicescard
           title={"Recurring Cleaning"}
           description={
             "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty."
-          }iconPath={homesvg}
+          }
+          iconPath={homesvg}
         ></Servicescard>
         <Servicescard
           title={"Recurring Cleaning"}
           description={
             "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty."
-          }iconPath={homesvg}
+          }
+          iconPath={homesvg}
         ></Servicescard>
         <Servicescard
           title={"Recurring Cleaning"}
           description={
             "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty."
-          }iconPath={homesvg}
+          }
+          iconPath={homesvg}
         ></Servicescard>
       </div>
 
@@ -80,21 +85,24 @@ export function Services() {
               title={"Choose Your Time"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              }iconPath={icon}
+              }
+              iconPath={icon}
             ></Steps>
             <hr className="bg-greylight opacity-25" />
             <Steps
               title={"Choose Your Time"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              }iconPath={icon}
+              }
+              iconPath={icon}
             ></Steps>
             <hr className="bg-greylight opacity-25" />
             <Steps
               title={"Choose Your Time"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-              }iconPath={icon}
+              }
+              iconPath={icon}
             ></Steps>
           </div>
         </div>
