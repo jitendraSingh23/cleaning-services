@@ -90,7 +90,7 @@ export function Services() {
             ></Steps>
             <hr className="bg-greylight opacity-25" />
             <Steps
-              title={"Choose Your Time"}
+              title={"Book Swiftly"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
               }
@@ -98,7 +98,7 @@ export function Services() {
             ></Steps>
             <hr className="bg-greylight opacity-25" />
             <Steps
-              title={"Choose Your Time"}
+              title={"Our Team Arrives"}
               description={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
               }

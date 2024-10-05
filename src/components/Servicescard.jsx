@@ -2,7 +2,7 @@ import Learnmore from "../assets/img/Learnmore.svg";
 
 export function Servicescard({ title, description, to, onClick, iconPath }) {
   return (
-    <div className=" flex flex-col h-auto w-auto border-2 border-strocks px-6 py-8 rounded-lg">
+    <div className=" flex flex-col h-auto w-auto border-2 border-strocks px-6 py-8 rounded-lg hover:scale-105 duration-300 hover:shadow-3xl">
       <div className="h-20 w-20 bg-buttoncolor rounded-md flex justify-center items-center ">
         <img src={iconPath} alt="" className="h-12 w-12 " />
       </div>

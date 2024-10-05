@@ -3,6 +3,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import personreview from "../assets/img/personreview.png";
+import personreview2 from "../assets/img/personreview2.png";
 
 export default function SimpleSlider() {
   var settings = {
@@ -24,6 +26,15 @@ export default function SimpleSlider() {
         description={
           "“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”"
         }
+        imagePath={personreview}
+      ></Reviewcard>
+      <Reviewcard
+        clientname={"Chintya Xin"}
+        profession={"Housewife"}
+        description={
+          "“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”"
+        }
+        imagePath={personreview2}
       ></Reviewcard>
       <Reviewcard
         clientname={"Nazmi Javier"}
@@ -31,6 +42,7 @@ export default function SimpleSlider() {
         description={
           "“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”"
         }
+        imagePath={personreview}
       ></Reviewcard>
       <Reviewcard
         clientname={"Nazmi Javier"}
@@ -38,13 +50,7 @@ export default function SimpleSlider() {
         description={
           "“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”"
         }
-      ></Reviewcard>
-      <Reviewcard
-        clientname={"Nazmi Javier"}
-        profession={"Housewife"}
-        description={
-          "“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”"
-        }
+        imagePath={personreview}
       ></Reviewcard>
 
       <Reviewcard
@@ -53,6 +59,7 @@ export default function SimpleSlider() {
         description={
           "“I love that I can spend more time with my husband, children, and family, and less time stressing over getting my house clean.”"
         }
+        imagePath={personreview}
       ></Reviewcard>
     </Slider>
   );

@@ -16,7 +16,7 @@ export function Form() {
       <label htmlFor="input" className="text-txcolor">
         Message*
       </label>
-      {/* <input type="text" placeholder="Your message" className="mb-5 pb-24 pt-2 pl-2"/> */}
+
       <textarea
         name=""
         id=""
@@ -26,7 +26,6 @@ export function Form() {
       <div className="items-center h-16 ">
         <Button title={"Book A Schedule"} btntype={"yellow"}></Button>
       </div>
-      {/* <button className="w-60 h-20 bg-yellow rounded-lg font-medium text-lg hover:bg-opacity-85 hover:scale-95">Book A Schedule</button> */}
     </div>
   );
 }

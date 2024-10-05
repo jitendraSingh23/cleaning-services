@@ -64,7 +64,7 @@ export function Footer() {
           </div>
           <div className="flex flex-col space-y-2 text-lg">
             <div className="flex items-center cursor-pointer">
-              <img className="pr-3 h-5" src={phone} alt="" /> 7737221545
+              <img className="pr-3 h-5" src={phone} alt="" /> 1234567890
             </div>
             <div className="flex items-center cursor-pointer">
               <img className="pr-3 h-5" src={email} alt="" />{" "}

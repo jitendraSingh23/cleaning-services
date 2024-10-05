@@ -5,7 +5,7 @@ export function Home() {
   return (
     <div className="flex flex-col">
       <Navbar></Navbar>
-      {/* //top subheading */}
+     
       <div className=" flex text-lg text-buttoncolor font-medium items-center justify-center mt-28">
         Professional Cleaning Service
       </div>
