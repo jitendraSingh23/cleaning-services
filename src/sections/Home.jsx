@@ -1,6 +1,4 @@
 import { Button } from "../components/Button";
-import { Buttonbordered } from "../components/Buttonbordered";
-import { Buttonsvg } from "../components/Buttonsvg";
 import { Navbar } from "../components/navbar";
 
 export function Home() {
